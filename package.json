@@ -1,0 +1,28 @@
+{
+  "name": "anyserver",
+  "version": "1.0.0",
+  "description": "a static resource server which development by node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bs1021797/node-anyserver.git"
+  },
+  "author": "baishuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bs1021797/node-anyserver/issues"
+  },
+  "homepage": "https://github.com/bs1021797/node-anyserver#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {}
+}
