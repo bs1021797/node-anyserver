@@ -10,11 +10,15 @@
             display: block;
             font-size: 16px;
         }
+        .tag {
+            color: #EE1955;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <% for(var i = 0; i < files.length; i++) {%>
-    <a href="<%= path %>/<%= files[i] %>"><%= files[i] %></a>
+    <a href="<%= path %>/<%= files[i].file %>"><span class="tag">【<%= files[i].icon %>】</span><%= files[i].file %></a>
     <% } %>
 </body>
 </html>

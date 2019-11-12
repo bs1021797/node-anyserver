@@ -1,1 +1,3 @@
-const test = "dddd"
+#!/usr/bin/env node
+ 
+console.log('Hello, cli!')
